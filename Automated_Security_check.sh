@@ -236,7 +236,7 @@ echo "S13 Size of upload: $rounded_file_mb MB"
 echo "S13 Sha256hash: $file_hash"
 echo "TTH IoC Check for $hostname $timestamp OK"
 
-S16 Removes all files created.
+#S16 Removes all files created.
 rm /$opt_sec_work/files_.tmp
 rm /$opt_sec_work/GID.tmp
 rm /$opt_sec_work/SUID.tmp
